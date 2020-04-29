@@ -1,0 +1,33 @@
+/* Customize the label (the container-checks) */
+.container-checks {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Hide browser default */
+.container-checks input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container-checks input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
