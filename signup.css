@@ -1,4 +1,13 @@
 /* Customize the label (the container-checks) */
+
+body {
+  height: 100%
+}
+
+.container {
+    align-content:center;
+}
+
 .container-checks {
   display: block;
   position: relative;

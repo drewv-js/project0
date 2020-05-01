@@ -1,0 +1,46 @@
+/*  CSS TESTING FOR LANDING PAGE */
+
+body {
+    background-color: #343a40;
+}
+
+img {
+    max-width: 184px;
+    max-height: 273px;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+}
+
+.col-sm-3 {
+
+}
+
+.navbar-brand {
+    padding-right: 2em;
+    font-size: 36px; 
+}
+
+.nav-item {
+    padding-top: 15px
+}
+
+
+#mov-container{
+    padding: 20px;
+    
+    background-color: white;
+}
+
+#mov-content, #mov-content-title {
+    margin-left: 20px;
+}
+
+.mov-content-head {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
