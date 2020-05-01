@@ -17,19 +17,23 @@
 
     <!--   Make it so "button" sends to the landing page.-->
     <div class="container">
-        <h4>Sign up</h4>
+        <div class="row">
+            <div class="col-sm-4 text-left">
+                <h4>Sign up</h4>
 
-        <form>
-            <label for="name">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="first"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="last"><br><br>
+                <form action="/landing-page.html">
+                    <label for="name">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="first"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="last"><br><br>
 
-            <label class="container-checks">I would like to subscribe to our daily newsletter to recieve daily news.
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <input type="submit" value="Submit">
-        </form>
+                    <label class="container-checks">I would like to subscribe to our daily newsletter to recieve daily news.
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </div>
     </div>
 </body></html>
