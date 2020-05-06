@@ -8,6 +8,8 @@ what movies are out or coming out at a certain time. With websites like ImDB and
 
 Though alot of the tools I use on this site are not completely functional I feel the site, for the projects sake,gives a nice idea of the capabilities it could have and how it could be beneficial to users.
 
+**All information on the site may not be factual or correct. If anything the information on the site is placeholders if anything.
+
 Thank you and hope you like the concept.
 
 Drew.

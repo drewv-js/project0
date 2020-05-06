@@ -1,19 +1,12 @@
 /*  CSS TESTING FOR LANDING PAGE */
 
-
-@media (max-width: 700px) {
-  .row, .navbar {   
-    flex-direction: column;
-  }
-}
-
 body {
     background-color: #343a40;
 }
 
 img {
-    max-width: 184px;
-    max-height: 273px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .monthList {
@@ -25,31 +18,29 @@ img {
     width: 100%;
 }
 
-.row {
-}
+.row {}
 
-.col-sm-3 {
-
-}
+.col-sm-3 {}
 
 .navbar-brand {
     padding-right: 2em;
-    font-size: 36px; 
+    font-size: 36px;
 }
 
 .nav-item {
     padding-top: 15px
 }
 
-
-#mov-container{
+#mov-container {
     padding: 20px;
-    
+
     background-color: white;
 }
 
-#mov-content, #mov-content-title {
-    margin-left: 20px;
+#mov-content{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 20px;
 }
 
 .mov-content-head {

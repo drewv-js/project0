@@ -1,42 +1,57 @@
 /* Customize the label (the container-checks) */
 
+html,
 body {
-  height: 100%
+    height: 100%;
 }
 
-.container {
-    align-content:center;
+.header {
+    color: white;
+    margin-bottom: 50px;
 }
 
-.container-checks {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 14px;
+p {
+    color: white;
 }
 
-/* Hide browser default */
-.container-checks input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #343a40;
 }
 
-
-.checkmark {
-  position: absolute;
-  top: 3px;
-  left: 0;
-  height: 15px;
-  width: 15px;
-  background-color: #eee;
-  border-radius: 50%;
+.h6 {
+    color: white;
 }
 
-.container-checks input:checked ~ .checkmark {
-  background-color: #2196F3;
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.checkbox {
+    color: white;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
 }

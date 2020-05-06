@@ -4,6 +4,9 @@
 <head>
     <title>Top Movies -- Signup</title>
 
+
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 
@@ -14,34 +17,39 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.0/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="signup.css">
-
+    <style>
+        @media (max-width : 500px) {
+            body {
+                background-color: white;
+            }
+            .header {
+                color: #343a40;
+            }
+            .h6 {
+                color: #343a40;
+            }
+            .checkbox {
+                color: #343a40;
+            }
+        }
+    </style>
 
 </head>
 
-<body>
-
-    <!--   Create simple form for a signup. Button works regardless if things are filled in or not     -->
-
-    <!--   Make it so "button" sends to the landing page.-->
-    <div class="container container-table">
-        <div class="row vertical-center">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4 text-left">
-                <h4>Sign up</h4>
-
-                <form action="/landing-page.html">
-                    <label for="name">First name:</label><br>
-                    <input type="text" id="fname" name="fname" value="first"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="last"><br><br>
-
-                    <label class="container-checks">I would like to subscribe to our daily newsletter to recieve daily news.
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <input type="submit" value="Login">
-                </form>
-            </div>
+<body class="text-center">
+    <form class="form-signin" action="landing-page.html">
+        <h2 class="header">GiveMeMovies</h2>
+        <h6 class="h6 mb-3 font-weight-normal">Please sign in</h6>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password">
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
         </div>
-    </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <p>** Sign In is just for appearance.</p>
+    </form>
 </body></html>
